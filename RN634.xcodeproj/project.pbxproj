@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7046F962658E4C50020FC3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7046F952658E4C50020FC3E /* AppDelegate.m */; };
+		F7046FA12658E4C60020FC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7046FA02658E4C60020FC3E /* Assets.xcassets */; };
+		F7046FA42658E4C60020FC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7046FA22658E4C60020FC3E /* LaunchScreen.storyboard */; };
+		F7046FA72658E4C60020FC3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7046FA62658E4C60020FC3E /* main.m */; };
+		F704704F2658E6290020FC3E /* libPods-iOSRN634.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F704704E2658E6290020FC3E /* libPods-iOSRN634.a */; };
+		F70470F22658E97A0020FC3E /* libReact-Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F70470242658E5DD0020FC3E /* libReact-Core.a */; };
+		F70470F92658EA010020FC3E /* Pods-iOSRN634.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F70470F62658EA010020FC3E /* Pods-iOSRN634.release.xcconfig */; };
+		F70470FA2658EA010020FC3E /* Pods-iOSRN634.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F70470F72658EA010020FC3E /* Pods-iOSRN634.debug.xcconfig */; };
+		F70470FB2658EA010020FC3E /* Pods-iOSRN634-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = F70470F82658EA010020FC3E /* Pods-iOSRN634-resources.sh */; };
+		F70471462658ECF10020FC3E /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = F70471452658ECF10020FC3E /* main.jsbundle */; };
+		F70471B02658EF930020FC3E /* assets in Resources */ = {isa = PBXBuildFile; fileRef = F70471AF2658EF930020FC3E /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70470152658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6FFB7B2992BB53405E6B771A5BA1E97D;
+			remoteInfo = DoubleConversion;
+		};
+		F70470172658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ABFEEA82A6C346B22843FBE0B0582182;
+			remoteInfo = FBReactNativeSpec;
+		};
+		F70470192658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06489499588BFA8FD5E63DD6375CD533;
+			remoteInfo = Folly;
+		};
+		F704701B2658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3CA7A9404CCDD6BA22C97F8348CE3209;
+			remoteInfo = glog;
+		};
+		F704701F2658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9D89E7EF88FC3D0E2E7425FA879CDA91;
+			remoteInfo = RCTMJRefreshHeader;
+		};
+		F70470212658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F958876A082BF810B342435CE3FB5AF6;
+			remoteInfo = RCTTypeSafety;
+		};
+		F70470232658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD71E2539823621820F84384064C253A;
+			remoteInfo = "React-Core";
+		};
+		F70470252658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE6D792B6328AAF68E46924D7F466631;
+			remoteInfo = "React-Core-AccessibilityResources";
+		};
+		F70470272658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6771D231F4C8C5976470A369C474B32E;
+			remoteInfo = "React-CoreModules";
+		};
+		F70470292658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37592FDAD45752511010F4B06AC57355;
+			remoteInfo = "React-cxxreact";
+		};
+		F704702B2658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D9F334F2E90E3EE462FC4192AF5C03BD;
+			remoteInfo = "React-jsi";
+		};
+		F704702D2658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F2E7C88DFCD460A4B46B913ADEB8A641;
+			remoteInfo = "React-jsiexecutor";
+		};
+		F704702F2658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2577F299FCB0A19824FE989BE77B8E8F;
+			remoteInfo = "React-jsinspector";
+		};
+		F70470312658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DF63376066E2275FF26820B3A512A9B;
+			remoteInfo = "react-native-webview";
+		};
+		F70470332658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE7B9294FF05AAFD1653E2104E10844A;
+			remoteInfo = "React-RCTAnimation";
+		};
+		F70470352658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F71EBF73F354B475D465FF6DE9A66707;
+			remoteInfo = "React-RCTBlob";
+		};
+		F70470372658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEDBF403E8E0B3885E65C2741B536BC5;
+			remoteInfo = "React-RCTImage";
+		};
+		F70470392658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 802121F5B756ACBFDD6D08C36246DADD;
+			remoteInfo = "React-RCTLinking";
+		};
+		F704703B2658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A68E5A9B69A3BA0FD52CAF7A354EC93B;
+			remoteInfo = "React-RCTNetwork";
+		};
+		F704703D2658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 269BE773C9482484B70949A40F4EA525;
+			remoteInfo = "React-RCTSettings";
+		};
+		F704703F2658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E6A16705C69FC7DE11C2469A4A0F8358;
+			remoteInfo = "React-RCTText";
+		};
+		F70470412658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C1A919103EAC9813D236486C34FC0A21;
+			remoteInfo = "React-RCTVibration";
+		};
+		F70470432658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5C775614AC76D44CECB6BE08B022F1F;
+			remoteInfo = ReactCommon;
+		};
+		F70470452658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5737DDB4BC95AD399B3206838AB97095;
+			remoteInfo = RNCAsyncStorage;
+		};
+		F70470472658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8F65F9361F2069CF9E9D751272968DE4;
+			remoteInfo = RNGestureHandler;
+		};
+		F70470492658E5DD0020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65D0A19C165FA1126B1360680FE6DB12;
+			remoteInfo = Yoga;
+		};
+		F704704D2658E6290020FC3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06260989AD3DF25E11646388CC54CB12;
+			remoteInfo = "Pods-iOSRN634";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7046F912658E4C50020FC3E /* RN634.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RN634.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7046F942658E4C50020FC3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7046F952658E4C50020FC3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7046FA02658E4C60020FC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7046FA32658E4C60020FC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7046FA52658E4C60020FC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7046FA62658E4C60020FC3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		F70470F62658EA010020FC3E /* Pods-iOSRN634.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-iOSRN634.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSRN634/Pods-iOSRN634.release.xcconfig"; sourceTree = "<group>"; };
+		F70470F72658EA010020FC3E /* Pods-iOSRN634.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-iOSRN634.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSRN634/Pods-iOSRN634.debug.xcconfig"; sourceTree = "<group>"; };
+		F70470F82658EA010020FC3E /* Pods-iOSRN634-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "Pods-iOSRN634-resources.sh"; path = "Pods/Target Support Files/Pods-iOSRN634/Pods-iOSRN634-resources.sh"; sourceTree = "<group>"; };
+		F70471452658ECF10020FC3E /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		F70471AF2658EF930020FC3E /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7046F8E2658E4C50020FC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70470F22658E97A0020FC3E /* libReact-Core.a in Frameworks */,
+				F704704F2658E6290020FC3E /* libPods-iOSRN634.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7046F882658E4C50020FC3E = {
+			isa = PBXGroup;
+			children = (
+				F70471D42658F0E90020FC3E /* RN */,
+				F7046F932658E4C50020FC3E /* RN634 */,
+				F7046F922658E4C50020FC3E /* Products */,
+				F704704B2658E6280020FC3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7046F922658E4C50020FC3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7046F912658E4C50020FC3E /* RN634.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7046F932658E4C50020FC3E /* RN634 */ = {
+			isa = PBXGroup;
+			children = (
+				F7046F942658E4C50020FC3E /* AppDelegate.h */,
+				F7046F952658E4C50020FC3E /* AppDelegate.m */,
+				F7046FA02658E4C60020FC3E /* Assets.xcassets */,
+				F7046FA22658E4C60020FC3E /* LaunchScreen.storyboard */,
+				F7046FA52658E4C60020FC3E /* Info.plist */,
+				F7046FA62658E4C60020FC3E /* main.m */,
+			);
+			path = RN634;
+			sourceTree = "<group>";
+		};
+		F7046FF22658E5DD0020FC3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70470162658E5DD0020FC3E /* libDoubleConversion.a */,
+				F70470182658E5DD0020FC3E /* libFBReactNativeSpec.a */,
+				F704701A2658E5DD0020FC3E /* libFolly.a */,
+				F704701C2658E5DD0020FC3E /* libglog.a */,
+				F704704E2658E6290020FC3E /* libPods-iOSRN634.a */,
+				F70470202658E5DD0020FC3E /* libRCTMJRefreshHeader.a */,
+				F70470222658E5DD0020FC3E /* libRCTTypeSafety.a */,
+				F70470242658E5DD0020FC3E /* libReact-Core.a */,
+				F70470262658E5DD0020FC3E /* AccessibilityResources.bundle */,
+				F70470282658E5DD0020FC3E /* libReact-CoreModules.a */,
+				F704702A2658E5DD0020FC3E /* libReact-cxxreact.a */,
+				F704702C2658E5DD0020FC3E /* libReact-jsi.a */,
+				F704702E2658E5DD0020FC3E /* libReact-jsiexecutor.a */,
+				F70470302658E5DD0020FC3E /* libReact-jsinspector.a */,
+				F70470322658E5DD0020FC3E /* libreact-native-webview.a */,
+				F70470342658E5DD0020FC3E /* libReact-RCTAnimation.a */,
+				F70470362658E5DD0020FC3E /* libReact-RCTBlob.a */,
+				F70470382658E5DD0020FC3E /* libReact-RCTImage.a */,
+				F704703A2658E5DD0020FC3E /* libReact-RCTLinking.a */,
+				F704703C2658E5DD0020FC3E /* libReact-RCTNetwork.a */,
+				F704703E2658E5DD0020FC3E /* libReact-RCTSettings.a */,
+				F70470402658E5DD0020FC3E /* libReact-RCTText.a */,
+				F70470422658E5DD0020FC3E /* libReact-RCTVibration.a */,
+				F70470442658E5DD0020FC3E /* libReactCommon.a */,
+				F70470462658E5DD0020FC3E /* libRNCAsyncStorage.a */,
+				F70470482658E5DD0020FC3E /* libRNGestureHandler.a */,
+				F704704A2658E5DD0020FC3E /* libYoga.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F704704B2658E6280020FC3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70470F52658E9D30020FC3E /* Pods Config */ = {
+			isa = PBXGroup;
+			children = (
+				F70470F82658EA010020FC3E /* Pods-iOSRN634-resources.sh */,
+				F70470F72658EA010020FC3E /* Pods-iOSRN634.debug.xcconfig */,
+				F70470F62658EA010020FC3E /* Pods-iOSRN634.release.xcconfig */,
+			);
+			name = "Pods Config";
+			sourceTree = "<group>";
+		};
+		F70471D42658F0E90020FC3E /* RN */ = {
+			isa = PBXGroup;
+			children = (
+				F70471AF2658EF930020FC3E /* assets */,
+				F70471452658ECF10020FC3E /* main.jsbundle */,
+				F70470F52658E9D30020FC3E /* Pods Config */,
+				F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */,
+			);
+			name = RN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7046F902658E4C50020FC3E /* RN634 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7046FAA2658E4C60020FC3E /* Build configuration list for PBXNativeTarget "RN634" */;
+			buildPhases = (
+				F7046F8D2658E4C50020FC3E /* Sources */,
+				F7046F8E2658E4C50020FC3E /* Frameworks */,
+				F7046F8F2658E4C50020FC3E /* Resources */,
+				F70470EE2658E84F0020FC3E /* CP Pod Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RN634;
+			productName = RN634;
+			productReference = F7046F912658E4C50020FC3E /* RN634.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7046F892658E4C50020FC3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F7046F902658E4C50020FC3E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F7046F8C2658E4C50020FC3E /* Build configuration list for PBXProject "RN634" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7046F882658E4C50020FC3E;
+			productRefGroup = F7046F922658E4C50020FC3E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F7046FF22658E5DD0020FC3E /* Products */;
+					ProjectRef = F7046FF12658E5DD0020FC3E /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F7046F902658E4C50020FC3E /* RN634 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F70470162658E5DD0020FC3E /* libDoubleConversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDoubleConversion.a;
+			remoteRef = F70470152658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470182658E5DD0020FC3E /* libFBReactNativeSpec.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFBReactNativeSpec.a;
+			remoteRef = F70470172658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704701A2658E5DD0020FC3E /* libFolly.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFolly.a;
+			remoteRef = F70470192658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704701C2658E5DD0020FC3E /* libglog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libglog.a;
+			remoteRef = F704701B2658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470202658E5DD0020FC3E /* libRCTMJRefreshHeader.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTMJRefreshHeader.a;
+			remoteRef = F704701F2658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470222658E5DD0020FC3E /* libRCTTypeSafety.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTTypeSafety.a;
+			remoteRef = F70470212658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470242658E5DD0020FC3E /* libReact-Core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-Core.a";
+			remoteRef = F70470232658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470262658E5DD0020FC3E /* AccessibilityResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AccessibilityResources.bundle;
+			remoteRef = F70470252658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470282658E5DD0020FC3E /* libReact-CoreModules.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-CoreModules.a";
+			remoteRef = F70470272658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704702A2658E5DD0020FC3E /* libReact-cxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-cxxreact.a";
+			remoteRef = F70470292658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704702C2658E5DD0020FC3E /* libReact-jsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-jsi.a";
+			remoteRef = F704702B2658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704702E2658E5DD0020FC3E /* libReact-jsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-jsiexecutor.a";
+			remoteRef = F704702D2658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470302658E5DD0020FC3E /* libReact-jsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-jsinspector.a";
+			remoteRef = F704702F2658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470322658E5DD0020FC3E /* libreact-native-webview.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libreact-native-webview.a";
+			remoteRef = F70470312658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470342658E5DD0020FC3E /* libReact-RCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTAnimation.a";
+			remoteRef = F70470332658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470362658E5DD0020FC3E /* libReact-RCTBlob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTBlob.a";
+			remoteRef = F70470352658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470382658E5DD0020FC3E /* libReact-RCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTImage.a";
+			remoteRef = F70470372658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704703A2658E5DD0020FC3E /* libReact-RCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTLinking.a";
+			remoteRef = F70470392658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704703C2658E5DD0020FC3E /* libReact-RCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTNetwork.a";
+			remoteRef = F704703B2658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704703E2658E5DD0020FC3E /* libReact-RCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTSettings.a";
+			remoteRef = F704703D2658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470402658E5DD0020FC3E /* libReact-RCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTText.a";
+			remoteRef = F704703F2658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470422658E5DD0020FC3E /* libReact-RCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReact-RCTVibration.a";
+			remoteRef = F70470412658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470442658E5DD0020FC3E /* libReactCommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactCommon.a;
+			remoteRef = F70470432658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470462658E5DD0020FC3E /* libRNCAsyncStorage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCAsyncStorage.a;
+			remoteRef = F70470452658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F70470482658E5DD0020FC3E /* libRNGestureHandler.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNGestureHandler.a;
+			remoteRef = F70470472658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704704A2658E5DD0020FC3E /* libYoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libYoga.a;
+			remoteRef = F70470492658E5DD0020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F704704E2658E6290020FC3E /* libPods-iOSRN634.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-iOSRN634.a";
+			remoteRef = F704704D2658E6290020FC3E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7046F8F2658E4C50020FC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70470F92658EA010020FC3E /* Pods-iOSRN634.release.xcconfig in Resources */,
+				F7046FA42658E4C60020FC3E /* LaunchScreen.storyboard in Resources */,
+				F70471B02658EF930020FC3E /* assets in Resources */,
+				F7046FA12658E4C60020FC3E /* Assets.xcassets in Resources */,
+				F70470FA2658EA010020FC3E /* Pods-iOSRN634.debug.xcconfig in Resources */,
+				F70471462658ECF10020FC3E /* main.jsbundle in Resources */,
+				F70470FB2658EA010020FC3E /* Pods-iOSRN634-resources.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F70470EE2658E84F0020FC3E /* CP Pod Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "CP Pod Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSRN634/Pods-iOSRN634-resources.sh\"\n\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7046F8D2658E4C50020FC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7046F962658E4C50020FC3E /* AppDelegate.m in Sources */,
+				F7046FA72658E4C60020FC3E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7046FA22658E4C60020FC3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7046FA32658E4C60020FC3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7046FA82658E4C60020FC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7046FA92658E4C60020FC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7046FAB2658E4C60020FC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70470F72658EA010020FC3E /* Pods-iOSRN634.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RN634/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionnner.RN634;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7046FAC2658E4C60020FC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70470F62658EA010020FC3E /* Pods-iOSRN634.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RN634/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionnner.RN634;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7046F8C2658E4C50020FC3E /* Build configuration list for PBXProject "RN634" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7046FA82658E4C60020FC3E /* Debug */,
+				F7046FA92658E4C60020FC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7046FAA2658E4C60020FC3E /* Build configuration list for PBXNativeTarget "RN634" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7046FAB2658E4C60020FC3E /* Debug */,
+				F7046FAC2658E4C60020FC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7046F892658E4C50020FC3E /* Project object */;
+}
