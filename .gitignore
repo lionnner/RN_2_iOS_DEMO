@@ -11,6 +11,8 @@
 project.xcworkspace/
 xcuserdata/
 
+build/
+
 # Podfiles
 Pods/
 
